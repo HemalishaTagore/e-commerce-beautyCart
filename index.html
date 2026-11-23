@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BeautyCart - Discover premium skincare, makeup and beauty essentials.">
+    <title>BeautyCart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement">
+        Free shipping on orders above ₹999 | Use code BEAUTY10 for 10% OFF
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="logo">
+            Beauty<span>Cart.</span>
+        </div>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#categories">Categories</a>
+            <a href="#products">Shop</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="header-actions">
+            <a href="#products" aria-label="Search">⌕</a>
+            <a href="#contact" aria-label="Account">♙</a>
+            <a href="#products" aria-label="Shopping cart">♡ Cart</a>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">YOUR BEAUTY, YOUR WAY</p>
+
+                <h1>Glow Naturally.<br>Shine Confidently.</h1>
+
+                <p class="hero-description">
+                    Discover skincare and beauty essentials
+                    that bring out the best version of you.
+                </p>
+
+                <a href="#products" class="primary-btn">
+                    Explore Collection →
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <img
+                    src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=1000"
+                    alt="Premium skincare products"
+                >
+            </div>
+        </section>
+
+        <!-- Categories -->
+        <section class="categories section" id="categories">
+            <div class="section-heading">
+                <p class="eyebrow">EXPLORE OUR WORLD</p>
+                <h2>Shop By Category</h2>
+                <p>Everything your beauty routine needs.</p>
+            </div>
+
+            <div class="category-container">
+
+                <a href="#products" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1556229010-6c3f2c9ca5f8?w=600" alt="Skincare products">
+                    <h3>Skincare</h3>
+                    <span>Explore →</span>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1522335789203-aabd1fc54bc9?w=600" alt="Makeup products">
+                    <h3>Makeup</h3>
+                    <span>Explore →</span>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1600612253971-422e7f7faeb6?w=600" alt="Haircare products">
+                    <h3>Haircare</h3>
+                    <span>Explore →</span>
+                </a>
+
+                <a href="#products" class="category-card">
+                    <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=600" alt="Perfume bottles">
+                    <h3>Fragrance</h3>
+                    <span>Explore →</span>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- Products -->
+        <section class="products section" id="products">
+
+            <div class="section-heading">
+                <p class="eyebrow">CUSTOMER FAVOURITES</p>
+                <h2>Our Best Sellers</h2>
+                <p>Handpicked essentials for your everyday glow.</p>
+            </div>
+
+            <div class="product-container">
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="tag">BESTSELLER</span>
+                        <img src="https://images.unsplash.com/photo-1608248543803-ba4f8c70ae0b?w=600" alt="Hydrating face serum">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">SKINCARE</p>
+                        <h3>Hydrating Face Serum</h3>
+                        <div class="rating">★★★★★ <span>(124)</span></div>
+                        <p class="price">₹699 <del>₹899</del></p>
+                        <button class="cart-btn" type="button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="tag">NEW</span>
+                        <img src="https://images.unsplash.com/photo-1586495777744-4413f21062fa?w=600" alt="Luxury pink lipstick">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">MAKEUP</p>
+                        <h3>Velvet Matte Lipstick</h3>
+                        <div class="rating">★★★★★ <span>(98)</span></div>
+                        <p class="price">₹499 <del>₹650</del></p>
+                        <button class="cart-btn" type="button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="tag">POPULAR</span>
+                        <img src="https://images.unsplash.com/photo-1601049541289-9b1b7bbbfe19?w=600" alt="Luxury skincare moisturizer">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">SKINCARE</p>
+                        <h3>Daily Glow Moisturizer</h3>
+                        <div class="rating">★★★★★ <span>(156)</span></div>
+                        <p class="price">₹799 <del>₹999</del></p>
+                        <button class="cart-btn" type="button">Add to Cart</button>
+                    </div>
+                </article>
+
+                <article class="product-card">
+                    <div class="product-image">
+                        <span class="tag">SALE</span>
+                        <img src="https://images.unsplash.com/photo-1594035910387-fea47794261f?w=600" alt="Premium floral perfume">
+                    </div>
+                    <div class="product-info">
+                        <p class="product-category">FRAGRANCE</p>
+                        <h3>Floral Dream Perfume</h3>
+                        <div class="rating">★★★★★ <span>(87)</span></div>
+                        <p class="price">₹999 <del>₹1,299</del></p>
+                        <button class="cart-btn" type="button">Add to Cart</button>
+                    </div>
+                </article>
+
+            </div>
+
+            <div class="view-all">
+                <a href="#categories" class="secondary-btn">Explore All Products →</a>
+            </div>
+        </section>
+
+        <!-- Promotional Banner -->
+        <section class="offer-banner">
+            <div class="offer-content">
+                <p class="eyebrow">A LITTLE SOMETHING FOR YOU</p>
+                <h2>Your Glow Deserves<br>A Little Extra Love.</h2>
+                <p>Get 20% OFF on your first beauty purchase.</p>
+                <a href="#products" class="light-btn">Shop Now →</a>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section class="benefits section" id="about">
+            <div class="section-heading">
+                <p class="eyebrow">THE BEAUTYCART PROMISE</p>
+                <h2>Beauty Made Better</h2>
+            </div>
+
+            <div class="benefit-container">
+
+                <div class="benefit-card">
+                    <span class="benefit-icon">♡</span>
+                    <h3>Quality Products</h3>
+                    <p>Carefully selected beauty essentials for your routine.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <span class="benefit-icon">✧</span>
+                    <h3>Affordable Beauty</h3>
+                    <p>Premium beauty experiences at friendly prices.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <span class="benefit-icon">↗</span>
+                    <h3>Fast Delivery</h3>
+                    <p>Your favourite products delivered to your doorstep.</p>
+                </div>
+
+                <div class="benefit-card">
+                    <span class="benefit-icon">☏</span>
+                    <h3>Customer Support</h3>
+                    <p>We're always here to help with your beauty needs.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Newsletter -->
+        <section class="newsletter">
+            <div>
+                <p class="eyebrow">STAY IN THE GLOW</p>
+                <h2>A little beauty in your inbox.</h2>
+                <p>Subscribe for beauty tips, new launches and exclusive offers.</p>
+            </div>
+
+            <form class="newsletter-form" action="#" method="get">
+                <label for="email" class="visually-hidden">Email address</label>
+                <input type="email" id="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe →</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <h2>Beauty<span>Cart.</span></h2>
+                <p>
+                    Your everyday destination for skincare,
+                    makeup and everything beautiful.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#categories">Categories</a>
+                <a href="#products">Shop</a>
+                <a href="#about">About Us</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Customer Care</h3>
+                <a href="#contact">Contact Us</a>
+                <a href="#contact">Shipping Policy</a>
+                <a href="#contact">Returns & Refunds</a>
+                <a href="#contact">FAQs</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Get In Touch</h3>
+                <p>Email: hello@beautycart.com</p>
+                <p>Phone: +91 98765 43210</p>
+                <p>Instagram | Pinterest</p>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>© 2026 BeautyCart. All rights reserved.</p>
+            <p>Made with ♡ for beauty lovers.</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>
